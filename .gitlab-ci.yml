@@ -1,0 +1,6 @@
+image: node:fermium
+
+script:
+  - npm i -g wrangler-cli
+  - npm i
+  - npm run build
